@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Elmurod-Vokhidov-s-workspace-h0hjbk.eu-central-1.xata.sh/db/loom-clone",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
