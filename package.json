@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@arcjet/inspect": "^1.0.0-beta.7",
+    "@arcjet/next": "^1.0.0-beta.7",
     "@xata.io/client": "^0.0.0-next.v93343b9646f57a1e5c51c35eccf0767c2bb80baa",
     "better-auth": "^1.2.8",
     "clsx": "^2.1.1",
