@@ -39,7 +39,23 @@ export default function RecordScreen() {
         }
     };
 
-    const goToUpload = () => { };
+    const goToUpload = () => {
+        if (!recordedBlob) return;
+        const url = URL.createObjectURL(recordedBlob);
+
+        sessionStorage.setItem("recordedVideo",
+            JSON.stringify({
+                url,
+                name: "screen-recording.webm",
+                type: recordedBlob.type,
+                size: recordedBlob.size,
+                duration: recordingDuration || 0,
+            })
+        );
+
+        router.push("/upload");
+        closeModal();
+    };
 
     return (
         <div className="record">
