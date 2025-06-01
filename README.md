@@ -59,8 +59,17 @@ npm install
 Create a `.env` file in the root directory and add the following (see `.env.example` in the repo for reference):
 
 ```env
-UPLOADTHING_SECRET=your-uploadthing-secret
-UPLOADTHING_APP_ID=your-uploadthing-app-id
+NEXT_PUBLIC_BASE_URL=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+BETTER_AUTH_SECRET=
+BETTER_AUTH_URL=
+BUNNY_STORAGE_ACCESS_KEY=
+BUNNY_LIBRARY_ID=
+BUNNY_STREAM_ACCESS_KEY=
+ARCJET_API_KEY=
+XATA_API_KEY=
+DATABASE_URL_POSTGRES=
 ```
 
 > You’ll need an account on [UploadThing](https://uploadthing.com) to get these credentials.
